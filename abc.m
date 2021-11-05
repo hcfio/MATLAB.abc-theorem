@@ -3,7 +3,7 @@
 kappa=1.4;
 Q=[1 2 3];
 
-for a=1:1000
+for a=1:500
     for b=a+1:100000
         c=a+b;
         X=factor(a*b*c);
@@ -26,4 +26,4 @@ for a=1:1000
     end
 end
 
-writematrix(Q,'abc11.csv')
+writematrix(Q,'abc14.csv')
